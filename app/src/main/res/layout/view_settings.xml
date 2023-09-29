@@ -1,0 +1,14 @@
+<com.google.android.material.textfield.TextInputLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="?attr/dialogPreferredPadding">
+
+    <EditText
+        android:id="@+id/input_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/settings_url"
+        android:inputType="textUri" />
+
+</com.google.android.material.textfield.TextInputLayout>
